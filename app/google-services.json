@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "98297516550",
+    "firebase_url": "https://turing-course-308211-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "turing-course-308211",
+    "storage_bucket": "turing-course-308211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98297516550:android:069418908595e64abe2987",
+        "android_client_info": {
+          "package_name": "com.example.bai23_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGjFZfgZ3Kb_z9mgBXxmV-KxC_iSuGZzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

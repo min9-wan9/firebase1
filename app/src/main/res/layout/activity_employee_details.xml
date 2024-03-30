@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeDetailsActivity">
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="UPDATE"
+        android:background="@drawable/bg_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg_btn"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btnUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnUpdate"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/ct1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtEmpId"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+
+            android:background="#F3AB42"
+            android:gravity="center"
+            android:text="Emp Id"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ct1">
+
+        <TextView
+            android:id="@+id/txtEmpName2"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+
+            android:background="#F3AB42"
+            android:gravity="center"
+            android:text="Emp Name"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ct3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ct2">
+
+        <TextView
+            android:id="@+id/txtEmpAge2"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+
+            android:background="#F3AB42"
+            android:gravity="center"
+            android:text="Emp Age"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ct4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ct3">
+
+        <TextView
+            android:id="@+id/txtEmpSalary2"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+
+            android:background="#F3AB42"
+            android:gravity="center"
+            android:text="Emp Salary"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
