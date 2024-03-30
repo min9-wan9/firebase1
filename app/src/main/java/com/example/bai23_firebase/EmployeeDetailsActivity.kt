@@ -26,7 +26,7 @@ class EmployeeDetailsActivity : AppCompatActivity() {
         txtName.text = intent.getStringExtra("empName")
         txtSalary.text = intent.getStringExtra("empSalary")
 
-
+// test
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
